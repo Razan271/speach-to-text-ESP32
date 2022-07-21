@@ -1,0 +1,92 @@
+.container
+{
+    min-height: 60vh;
+    display: grid;
+    place-items: center;
+}
+.Language{
+    display: inline;
+    border: 1px solid #455152ea;
+    border-radius: 30px;
+    box-shadow: 5px 5px 6px #a4bec0ea;
+
+}
+#English_Buttons{
+    background-color: rgba(42, 105, 156, 0) ; 
+    border: none;
+    color:black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+#Arabic_Buttons{
+    background-color: #b3b3b3; 
+    border: none;
+    color:black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.inputBx
+{
+    display:flex;
+    height: 40;
+}
+.inputBx input
+{
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px ;
+    border: none;
+    box-shadow:  0 0 4px  black;
+    outline: none;
+    width: 400px;
+    height: 40;
+    font-size: 16px;
+    font-weight: italic;
+    font-family: cursive;
+    text-align:right;
+}
+.inputBx .icon
+{
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    box-shadow:  0 0 4px black;
+    border-radius: 50%;
+    margin-left: 30px;
+    cursor: pointer;
+    color:black;
+    background-color:white;
+}
+.inputBx .icon i
+{
+    pointer-events: none;
+}
+
+@keyframes breathe {
+    0% {
+   box-shadow: 0 0 0 7px rgb(248, 94, 189)
+    }
+    50% {
+   box-shadow: 0 0 0 25px rgba(157, 208, 230,0.7);
+    }
+    100% {
+   box-shadow: 0 0 0 7px rgb(241, 95, 222);
+    }
+   }
+
